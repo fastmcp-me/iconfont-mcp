@@ -1,11 +1,15 @@
 {
   "name": "iconfont-mcp",
   "version": "1.0.0",
+  "main": "dist/index.js",
   "keywords": [
     "mcp",
     "iconfont",
     "icon",
     "assistant"
+  ],
+  "files": [
+    "dist"
   ],
   "author": {
     "name": "zys8119",
