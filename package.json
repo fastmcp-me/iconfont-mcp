@@ -2,6 +2,11 @@
   "name": "iconfont-mcp",
   "version": "1.0.0",
   "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run dev",
+    "dev": "tsnd --watch 'src/**/*.ts' -T --respawn --cls src/test.ts"
+  },
   "keywords": [
     "mcp",
     "iconfont",
