@@ -6,6 +6,23 @@ iconfont 图标助手, 基于 mcp 协议的图标下载助手
 npx iconfont-mcp
 ```
 
+## 开发
+```bash
+npm run dev
+```
+
+## 构建
+```bash
+npm run build
+```
+
+
+## 调试
+```bash
+npx @modelcontextprotocol/inspector
+
+```
+
 ## 使用
 ```json
 {
