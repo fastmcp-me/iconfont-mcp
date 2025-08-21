@@ -5,6 +5,19 @@ iconfont 图标助手, 基于 mcp 协议的图标下载助手
 ```bash
 npx iconfont-mcp
 ```
+## MCP 使用
+```json
+{
+  "mcpServers": {
+    "iconfont": {
+      "command": "npx",
+      "args": [
+        "iconfont-mcp"
+      ]
+    }
+  }
+}
+```
 
 ## 开发
 ```bash
@@ -23,16 +36,3 @@ npx @modelcontextprotocol/inspector
 
 ```
 
-## 使用
-```json
-{
-  "mcpServers": {
-    "iconfont": {
-      "command": "npx",
-      "args": [
-        "iconfont-mcp"
-      ]
-    }
-  }
-}
-```
