@@ -48,7 +48,7 @@ server.registerTool(
   {
     description: "图标助手-下载图标",
     inputSchema: {
-      name: z.string().describe("图标名称"),
+      name: z.string().describe("图标名称，名称如果是中文，需要进行英文转换"),
       svg: z.string().describe("图标svg内容"),
       cwd: z.string().describe("当前工作目录"),
       icons: z
