@@ -1,0 +1,20 @@
+{
+  "name": "iconfont-mcp",
+  "version": "1.0.0",
+  "keywords": [
+    "mcp",
+    "iconfont",
+    "icon",
+    "assistant"
+  ],
+  "author": {
+    "name": "zys8119",
+    "email": "770959294@qq.com"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.17.3",
+    "@types/node": "^24.3.0",
+    "axios": "^1.11.0",
+    "zod": "^3.25.76"
+  }
+}
