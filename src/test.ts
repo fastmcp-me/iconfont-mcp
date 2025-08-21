@@ -1,4 +1,4 @@
-import { Client } from "@modelcontextprotocol/sdk/client/index";
+import { Client } from "@modelcontextprotocol/sdk/client";
 import { StdioClientTransport } from "@modelcontextprotocol/sdk/client/stdio.js";
 const server = new Client({
   name: "simple-http-mcp",
@@ -6,7 +6,7 @@ const server = new Client({
 });
 const client = new StdioClientTransport({
   command: "tsx",
-  args: ["/Users/zhangyunshan/work/typescript-sdk/aa.ts"],
+  args: ["src/index.ts"],
 });
 server.connect(client, {
   timeout: 10000,
